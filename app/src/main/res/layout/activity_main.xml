@@ -22,7 +22,7 @@
         app:layout_constraintStart_toEndOf="@+id/avatar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        android:text="@sample/posts.json/data/author" />
+        tools:text="@sample/posts.json/data/author" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
@@ -48,7 +48,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/avatar"
         app:layout_constraintStart_toStartOf="@+id/author"
         app:layout_constraintTop_toBottomOf="@+id/author"
-        android:text="@sample/posts.json/data/published" />
+        tools:text="@sample/posts.json/data/published" />
 
     <ImageView
         android:id="@+id/avatar"
@@ -75,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/barrier"
-        android:text="@sample/posts.json/data/content" />
+        tools:text="@sample/posts.json/data/content" />
 
     <ImageView
         android:id="@+id/like"
